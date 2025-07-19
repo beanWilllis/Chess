@@ -609,25 +609,6 @@ def get_rook_castle(x,y, pieces):
         if piece.rect[0] == 90 * x and piece.rect[1] == 90 * y:
             return piece
 
-'''
-def castle_moved_piece(piece, castle_moved):
-    if piece.type == 3:
-        if int(piece.rect[0] / 90) == 0:
-            castle_moved[0] = 1
-        elif int(piece.rect[0] / 90) == 7:
-            castle_moved[2] = 1
-    elif piece.type == 5:
-        castle_moved[1] = 1
-    elif piece.type == 9:
-        if int(piece.rect[0] / 90) == 0:
-            castle_moved[3] = 1
-        elif int(piece.rect[0] / 90) == 7:
-            castle_moved[5] = 1
-    elif piece.type == 11:
-        castle_moved[5] = 1
-    return castle_moved
-'''
-
 
 def white_kingside_castle(board_state, castle_moved):
     castle = 0
