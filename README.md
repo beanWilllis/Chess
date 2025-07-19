@@ -1,3 +1,3 @@
 # Chess
 Chess Game Against Basic Bot
-https://www.youtube.com/watch?v=wNfuwZcNfXo
+Example Demo: https://www.youtube.com/watch?v=wNfuwZcNfXo
